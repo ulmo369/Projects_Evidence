@@ -41,6 +41,5 @@ string Pago::getTarjeta(){//Función GETTER para tipo de tarjeta y que te la regr
 
 void Pago::MostrarSaldo(){ //Función para mostrar saldo
     cout<<"Tu saldo restante es de $"<<saldo<<"\n";
-
 }
 #endif
