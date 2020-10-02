@@ -7,6 +7,7 @@
 - Data Science Projects
 - Magnetism project
 - Object oriented programming 1
+- Object oriented programming 2
 
  # Computational Biology
  This was a project with the goal to represent a good differential Gene Expression, making different kinds of plots like volcan plot and box plot.
