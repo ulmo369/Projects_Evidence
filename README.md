@@ -1,51 +1,49 @@
 # Projects_Evidence
 # Diego Emilio Barrera Hernández
 
- **What does this repository have?:**
-- My biggest project
+ **What does this repository have?**
+- All my own projects
+- Computational Biology Project
+- Data Science Projects
+- Magnetism project
+- Object oriented programming 1
 
- **Descripción:**
+ **Computational Biology**
+ This was a project with the goal to represent a good differential Gene Expression, making different kinds of plots like volcan plot and box plot.
+ With this we were able to conclude which type of colon cancer is more dangerous today, considering adults and adolescents.
  
- El programa nos muestra una simulación de un juego de pelea, dónde tu eres el que interactúa para que la batalla siga avanzando.
- Serás un héroe de cualquier juego y vencerás al Jefe Final de ese juego.
- Solo tienes un Tilt Attack y un Smash Attack,
- el Tilt Attack puede fallar o puede ser un ataque crítico; pero solo es un 30% de tener eso,
- el Smash Attack se cargará cada tres turnos; el jefe tiene un 30% de pegar y el heroe un 70%,
- y por ultimo el Smash Attack del jefe vale 100 y el Smash Attack del héroe tu lo puedes escoger, tal vez de 50 o tal vez de 25.
- Cuando tú y tu oponente alcancen el %300 de su daño el juego terminará.
- El ganador será el jugador que tenga menos porcentaje de daño al final de la partida.
-
-# Funcionalidad
- Solo se permite un heroe y su enemigo, lo cual puede haber únicamente dos casos:
+ **Data Science**
+ Here I present 3 codes, in the first one I had to have done a code to process differente kind of information of any kind of persons, I decided to
+ make a calculator of body mass index with the user information.
+ In the second I used the Pandas library to process my own information from an Excel table, with this I could visualize what my weight will be if I
+ continue with my diet.
+ And in the third one, I did a real study of my information, there I presented important points of a data science study like the regression model or
+ the root of the mean squared deviation.
  
- TLOZELDA con su enemigo GANONDORF o FINALFANTASY con su enemigo SEPHIROTH
+ **Magnetism**
+ This is only an interface of a grafic representation of what would be the fall of a magnet on a magnetic field. Here we can make the grafic of the 
+ electromotive force and flow, the position and the velocity
  
- Las clases estan hechas para mostrar su información y poder hacer las acciones de los ataques que suben el daño
+ **Object oriented programming 1**
+ The program is about a reservation to a restaurant, where you simply choose your food, drink and dessert, you also specify the payment and specify the
+ branch and the time; the advantage would be that your food would already be at the time in the place that you decided.
+ In this project I used these methods:
+ * heritage
+ * composition
+ * abstraction
  
- Consta de un menu con las opciones para que siga corriendo la batalla y corre sobre consola.
-
-# Tipos de practica en programación orientada a objetos
-* **Clase abstracta y Herencia (papá):**  
-    * CHARACTER.h
-
-* **Herencia(hijas) y Sobrescritura de un metodo "ShowInfoGame":**  
-    * TLOZELDA.H
-    * FINALFANTASY.H
-    * GANONDORF.H
-    * SEPHIROTH.H
-    
-* **Polimorfismo, Composición y Apuntadores:**  
-    * GAME.h
-
-* **UML:**  
-    * POO2_CORRECCION.pdf
-    
-# Consideraciones
-
- El programa solo corre en la consola y esta hecho con c++ en Windows 10
- 
- Compilar con: "g++ GAME.h CHARACTER.h TLOZELDA.h GANONDORF.h FINALFANTASY.h SEPHIROTH.h MAIN.cpp"
-
- windows: "MAIN.exe"
-
- linux: "/a.out"
+ **Object oriented programming 2**
+ This code shows a simulation of a fighting game in which you are the one who interacts to continue the fight. You will be a hero of any game and you
+ will need to defeat the  Final Boss of that game, you only have a Tilt Attack and Smash Attack and you can fail the Tilt Attack or maybe it can be a 
+ Critical Attack but there is only a 30% of having thaa; the Smash Attack will be charged every three turns, you have to consider that the boss also
+ have a Smash attack and he has a 40% to hit, you have a 70%.
+ The Boss Smash Attack = 100 and you can choose the Hero Smash Attack, maybe of 50 or maybe of 25
+ When you and your opponent reach the %300 of damage the game will end
+ The winner will be the player that has less damage percentage
+ In this project I used these methods:
+ * Heritage
+ * Composition
+ * Abstraction
+ * Pointers
+ * Overwriting
+ * Polimorfism
