@@ -36,11 +36,12 @@
  # Object oriented programming 2
  This code shows a simulation of a fighting game in which you are the one who interacts to continue the fight. You will be a hero of any game and you
  will need to defeat the  Final Boss of that game, you only have a Tilt Attack and Smash Attack and you can fail the Tilt Attack or maybe it can be a 
- Critical Attack but there is only a 30% of having thaa; the Smash Attack will be charged every three turns, you have to consider that the boss also
+ Critical Attack but there is only a 30% of having that; the Smash Attack will be charged every three turns, you have to consider that the boss also
  have a Smash attack and he has a 40% to hit, you have a 70%.
  The Boss Smash Attack = 100 and you can choose the Hero Smash Attack, maybe of 50 or maybe of 25
- When you and your opponent reach the %300 of damage the game will end
+ When you and your opponent reach the %300 of damage the game will end.
  The winner will be the player that has less damage percentage
+ 
  In this project I used these methods:
  * Heritage
  * Composition
