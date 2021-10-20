@@ -8,6 +8,8 @@
 - Magnetism project
 - Object oriented programming 1
 - Object oriented programming 2
+- Web Programming
+- Lexer Scheme
 
  # Computational Biology
  This was a project with the goal to represent a good differential Gene Expression, making different kinds of plots like volcan plot and box plot.
@@ -49,3 +51,17 @@
  * Pointers
  * Overwriting
  * Polimorfism
+
+ # Web Programming
+ Resultados de traducción
+ Currently, due to the digital transformation, Natgas did not have an effective way to manage its IT projects, having to perform various actions manually without any type of  automated and intelligent software, thus wasting time due to the lack of automation of the process.
+
+ They mainly use two platforms for the approach of their projects, Google Sheets or Excel where they propose the analysis of requirements and their prioritization, and then
+ transfer them to Airtable to follow up on them and again copy the data to Excel to graph them, wasting a lot of time and adding manual work unnecessary.
+
+ We take care of generating a tool that could connect your Airtable work with various functionalities that we present on our website. 
+ 
+ # Lexer Scheme
+ I had the job of making a lexer of the scheme language in c ++, this should receive an input.txt and generate its resulting color code.
+ Html and css were used to color and present the resulting code.
+ The regex library was used to solve this problem
