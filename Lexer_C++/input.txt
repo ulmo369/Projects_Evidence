@@ -1,0 +1,14 @@
+(define (cuadrado x)
+  (* x x))
+#
+;Este es un comentario
+(define (area-circulo r)
+ (* 3.1416 (cuadrado r)))
+;fin
+; aqui se define si has entendido o no lo que hemos aprendido
+     (hola +)
+
+
+(define (cuantos n)  ; define la cantidad de digitos de un entero
+(if (<= n 9) 1
+(+ (cuantos (/ n 10)) 1)))

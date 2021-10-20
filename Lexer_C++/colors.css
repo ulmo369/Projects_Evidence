@@ -1,0 +1,39 @@
+.OpenParentesis{
+    color: rgb(255, 166, 0);
+}
+
+.CloseParentesis{
+    color: rgb(255, 166, 0);
+}
+
+.Char{
+    color: rgb(255, 0, 0);
+}
+
+.Comments{
+    color: grey;
+}
+
+.ReservedWords{
+    color: blue;
+}
+
+.Numbers{
+    color: rgb(42, 207, 1);
+}
+
+.Dott{
+    color: rgb(54, 176, 233);
+}
+
+.ident{
+    color: rgb(158, 10, 10);
+}
+
+.else{
+    color: rgb(0, 136, 18);
+}
+
+.poten{
+    color: rgb(173, 97, 243);
+}

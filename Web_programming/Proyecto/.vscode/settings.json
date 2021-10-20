@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/1658b2b5-e7af-44cd-ba17-ec945ab93cca/resourceGroups/nodeNatgas/providers/Microsoft.Web/sites/gestor-proyectos"
+}

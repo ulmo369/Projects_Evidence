@@ -1,0 +1,35 @@
+<%- include('partials/head.ejs') %>
+
+<%- include('partials/navbarProyectos.ejs') %>
+
+<main class="container">
+    <h1 class= "text-white"><%= titulo %></h1>
+    <form action="/proyectos/nuevo_proyecto?_csrf=<%=csrfToken%>" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>" >
+        <div class="mb-3">
+            <label for="nombre_proyecto" class="form-label text-success">Nombre:</label>
+            <input type="text" class="form-control" id="nombre_proyecto" name="nombre_proyecto">
+        </div>
+        <div class="mb-3">
+            <label for="descripcion" class="form-label text-success">Descripción:</label>
+            <input type="text" class="form-control" id="descripcion" name="descripcion">
+        </div>
+        <div class="mb-3">
+            <div class="form-group">
+              <label for="imagen" class="form-label text-success">Imagen:</label>
+              <input type="file" class="form-control-file text-white" id="imagen" name="imagen">
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="users" class="form-label text-success">Involucrados:</label>
+            <select class="form-control" id="users" name="users" multiple data-live-search="true">
+                <% for (let user of users) { %>
+                    <option value="<%= user.nombre_usuario %>"> <%= user.nombre_usuario %> </option>
+                <% } %>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-dark">Ingresar</button>
+    </form>
+</main>
+
+<%- include('partials/footer.ejs') %>
