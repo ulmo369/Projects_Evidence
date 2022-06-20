@@ -1,0 +1,4 @@
+---
+applications:
+ - name: movilidad urbana server
+   random-route: true
