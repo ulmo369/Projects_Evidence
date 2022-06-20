@@ -10,6 +10,8 @@
 - Object oriented programming 2
 - Web Programming
 - Lexer Scheme
+- MultiAgents
+- App
 
  # Computational Biology
  This was a project with the goal to represent a good differential Gene Expression, making different kinds of plots like volcan plot and box plot.
@@ -58,9 +60,24 @@
  They mainly use two platforms for the approach of their projects, Google Sheets or Excel where they propose the analysis of requirements and their prioritization, and then
  transfer them to Airtable to follow up on them and again copy the data to Excel to graph them, wasting a lot of time and adding manual work unnecessary.
 
- We take care of generating a tool that could connect your Airtable work with various functionalities that we present on our website. 
+ We take care of generating a tool that could connect data from Airtable with various functionalities that we present on our website. 
  
  # Lexer Scheme
  I had the job of making a lexer of the scheme language in c ++, this should receive an input.txt and generate its resulting color code.
  Html and css were used to color and present the resulting code.
  The regex library was used to solve this problem
+ 
+ # Multiagents
+ The project consists of proposing a solution to the problem of urban mobility in Mexico, through an approach that reduces vehicular congestion by graphically 
+ simulating traffic, representing the output of a multi-agent system.
+ my main job was working on the algorithm of the multi-agents system. This system was made in python, using mesa and pandas as the main libraries that helped make the 
+ specifics calculus. This part was also programmed in an object-oriented programming method, creating three main classes: CarAgent, LightAgent, and StreetModel.
+
+ CarAgent: Was programmed to stop if a car is in front of it or to die if it is out of the grid. The cars also have their own specific way to move.
+
+ LightAgent: Has the specific algorithm for how the cars must wait or move for a good autosuficient.
+
+ StreetModel: This class just represents the grid where the cars and lights have to be.
+ 
+ # App
+ 
