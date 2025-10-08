@@ -1,0 +1,19 @@
+# Ignora la carpeta _pycache_
+__pycache__/ 
+
+# Ignora la carpeta test_data
+test_data/
+prepared_data/
+
+# Ignora el archivo redundance.csv
+redundance.csv
+descriptive.csv
+summary_ones.csv
+filter_dict.json
+
+# Ignora el archivo de configuración
+config.json
+
+DataPreparation/__pycache__/
+DataUnderstanding/__pycache__/
+Model/__pycache__/
