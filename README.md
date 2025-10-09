@@ -18,12 +18,7 @@
  With this we were able to conclude which type of colon cancer is more dangerous today, considering adults and adolescents.
  
  # Data Science
- Here I present 3 codes, in the first one I had to have done a code to process differente kind of information of any kind of persons, I decided to
- make a calculator of body mass index with the user information.
- In the second I used the Pandas library to process my own information from an Excel table, with this I could visualize what my weight will be if I
- continue with my diet.
- And in the third one, I did a real study of my information, there I presented important points of a data science study like the regression model or
- the root of the mean squared deviation.
+
  
  # Magnetism
  This is only an interface of a grafic representation of what would be the fall of a magnet on a magnetic field. Here we can make the grafic of the 
